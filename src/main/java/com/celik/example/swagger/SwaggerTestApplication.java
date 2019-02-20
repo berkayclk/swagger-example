@@ -1,4 +1,4 @@
-package com.example.swager.swaggertest;
+package com.celik.example.swagger;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

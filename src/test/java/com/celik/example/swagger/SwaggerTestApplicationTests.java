@@ -1,4 +1,4 @@
-package com.example.swager.swaggertest;
+package com.celik.example.swagger;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
