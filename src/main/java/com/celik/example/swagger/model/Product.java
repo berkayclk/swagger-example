@@ -12,6 +12,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
+import javax.persistence.Column;
 import javax.persistence.Version;
 import java.math.BigDecimal;
 
@@ -33,6 +34,7 @@ public class Product {
     private Integer version;
 
     @ApiModelProperty(notes = "The application-specific product ID")
+    @Column(unique = true)
     private String productId;
     @ApiModelProperty(notes = "The product description")
     private String description;
