@@ -3,10 +3,9 @@ package com.celik.example.swagger.service;
 import com.celik.example.swagger.model.Product;
 import com.celik.example.swagger.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
-import java.util.List;
-
+@Service
 public class ProductService implements  IProductService {
 
     ProductRepository productRepository;
