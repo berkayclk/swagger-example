@@ -5,11 +5,11 @@ import com.celik.example.swagger.model.Product;
 
 public interface IProductService {
 
-    public Product getProductById(Long Id);
+    public Product getProductById(String Id);
 
     public Iterable<Product> getAllProducts();
 
-    public void deleteProductById(Long Id);
+    public void deleteProductById(String Id);
 
     public Product updateProduct(Product product);
 
