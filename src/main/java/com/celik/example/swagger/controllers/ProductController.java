@@ -34,7 +34,7 @@ public class ProductController {
         productService.createProduct(product);
 
         product = new Product();
-        product.setProductId("prod-2");
+        product.setProductId("prod-99");
         product.setDescription("Deneme Product 2");
         product.setImageUrl("https://iamge.iamge.deneme2");
         product.setPrice(BigDecimal.valueOf(20));
