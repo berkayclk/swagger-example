@@ -33,6 +33,9 @@ public class Product {
     @ApiModelProperty(notes = "The auto-generated version of the product")
     private Integer version;
 
+    @ApiModelProperty(notes = "Name of the product")
+    private String name;
+
     @ApiModelProperty(notes = "The application-specific product ID")
     @Column(unique = true)
     private String productId;
